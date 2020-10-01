@@ -3,7 +3,11 @@
 $body-bg: rebeccapurple;
 $body-color: white;
 $primary: hotpink;
-$font-family-base: Arial;
+$font-family-base: "Roboto Mono", monospace;
+$font-family-heading: "Roboto Slab", serif;
+
+$link-hover-color: rgb(199, 125, 162);
+$link-hover-decoration: none;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -12,6 +16,19 @@ $font-family-base: Arial;
 
 body {
   margin: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-heading;
+}
+
+.card {
+  margin-top: 1rem;
 }
 
 .popover * {
@@ -23,4 +40,9 @@ body {
   padding: 1rem;
   background-color: cornsilk;
   color: $body-bg;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
 }
