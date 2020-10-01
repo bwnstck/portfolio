@@ -9901,4 +9901,11 @@ body {
   background-color: #343a40;
 }
 
+.generalInfo {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: cornsilk;
+  color: rebeccapurple;
+}
+
 /*# sourceMappingURL=custom.css.map */
