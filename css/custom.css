@@ -9906,6 +9906,10 @@ h6 {
   font-family: "Roboto Slab", serif;
 }
 
+.wrapper {
+  margin-top: 56px;
+}
+
 .card {
   margin-top: 1rem;
 }
