@@ -59,9 +59,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: white;
+  color: #fcf7ff;
   text-align: left;
-  background-color: rebeccapurple;
+  background-color: #663399;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -472,7 +472,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: rebeccapurple;
+  background-color: #663399;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1646,7 +1646,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: white;
+  color: #fcf7ff;
 }
 .table th,
 .table td {
@@ -1691,7 +1691,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: white;
+  color: #fcf7ff;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -2045,7 +2045,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: white;
+  color: #fcf7ff;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2378,7 +2378,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: white;
+  color: #fcf7ff;
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -2396,7 +2396,7 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: white;
+  color: #fcf7ff;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
@@ -2962,7 +2962,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: white;
+  color: #fcf7ff;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3700,13 +3700,13 @@ input[type=button].btn-block {
   outline: none;
 }
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px rebeccapurple, 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
+  box-shadow: 0 0 0 1px #663399, 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
 }
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px rebeccapurple, 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
+  box-shadow: 0 0 0 1px #663399, 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
 }
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px rebeccapurple, 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
+  box-shadow: 0 0 0 1px #663399, 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
 }
 .custom-range::-moz-focus-outer {
   border: 0;
@@ -3874,8 +3874,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: rebeccapurple;
-  border-color: #dee2e6 #dee2e6 rebeccapurple;
+  background-color: #663399;
+  border-color: #dee2e6 #dee2e6 #663399;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -4965,7 +4965,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: white;
+  color: #fcf7ff;
   background-color: #e9ecef;
 }
 
@@ -5747,7 +5747,7 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: white;
+  color: #fcf7ff;
 }
 
 .carousel {
@@ -9755,7 +9755,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: white !important;
+  color: #fcf7ff !important;
 }
 
 .text-muted {
@@ -9913,7 +9913,6 @@ h6 {
 }
 
 h2 {
-  margin-top: 2rem;
   text-align: center;
 }
 
@@ -9951,11 +9950,11 @@ h2 {
 
 .container-xl {
   align-items: center;
-  padding: 0;
+  padding: 2rem 0;
 }
 
 .jumbotron {
-  margin-top: 0;
+  margin: 0 auto;
 }
 
 .card {
@@ -9973,11 +9972,18 @@ h2 {
   background-color: #343a40;
 }
 
+#tech {
+  background-color: #c4cad0;
+}
+
+#funStuff {
+  background-color: #f4166e;
+}
+
 .generalInfo {
   margin-top: 3rem;
   padding: 1rem;
-  background-color: cornsilk;
-  color: rebeccapurple;
+  color: #fcf7ff;
   border-radius: 10px;
 }
 

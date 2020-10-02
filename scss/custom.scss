@@ -1,9 +1,12 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: rebeccapurple;
-$body-color: white;
+$body-bg: #663399;
+$body-color: #fcf7ff;
 $primary: hotpink;
 $secondary: #f4166e;
+$silversand: #c4cad0;
+$seaweed: #1f7a8c;
+
 $font-family-base: "Roboto Mono", monospace;
 $font-family-heading: "Roboto Slab", serif;
 
@@ -39,7 +42,6 @@ h6 {
 }
 
 h2 {
-  margin-top: 2rem;
   text-align: center;
 }
 
@@ -84,14 +86,15 @@ h2 {
   }
 }
 
+// CONTAINER
 .container-xl {
   align-items: center;
-  padding: 0;
+  padding: 2rem 0;
 }
 
 // Jumbotron
 .jumbotron {
-  margin-top: 0;
+  margin: 0 auto;
 }
 
 // Cards
@@ -110,12 +113,21 @@ h2 {
   background-color: $dark;
 }
 
+// Sections
+
+#tech {
+  background-color: $silversand;
+}
+
+#funStuff {
+  background-color: $secondary;
+}
+
 // Text-Blocks
 .generalInfo {
   margin-top: 3rem;
   padding: 1rem;
-  background-color: cornsilk;
-  color: $body-bg;
+  color: $body-color;
   border-radius: 10px;
 }
 
