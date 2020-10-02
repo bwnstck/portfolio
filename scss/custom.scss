@@ -1,8 +1,12 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: rebeccapurple;
-$body-color: white;
+$body-bg: #663399;
+$body-color: #fcf7ff;
 $primary: hotpink;
+$secondary: #f4166e;
+$silversand: #c4cad0;
+$seaweed: #1f7a8c;
+
 $font-family-base: "Roboto Mono", monospace;
 $font-family-heading: "Roboto Slab", serif;
 
@@ -24,6 +28,8 @@ html {
 
 body {
   margin: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -36,13 +42,11 @@ h6 {
 }
 
 h2 {
-  margin-top: 2rem;
   text-align: center;
 }
 
 // Layout
 #wrapper {
-  margin-top: 56px;
 }
 
 // Navbar
@@ -54,15 +58,43 @@ h2 {
   margin-top: 0;
 }
 
+.nav-link {
+  color: white !important;
+}
+
 // Carousel
 .carousel-item {
   height: 40vh;
   object-fit: cover;
 }
 
+// Hero
+.hero {
+  display: flex;
+  margin-top: 66px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/img/triangles_background.svg);
+
+  .container {
+    margin: auto;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 300px;
+  }
+}
+
+// CONTAINER
+.container-xl {
+  align-items: center;
+  padding: 4rem 0;
+}
+
 // Jumbotron
 .jumbotron {
-  margin-top: 0;
+  margin: 0 auto;
 }
 
 // Cards
@@ -74,23 +106,55 @@ h2 {
 
 .fab {
   font-size: 12rem;
+  color: $secondary;
 }
 
 .popover * {
   background-color: $dark;
 }
 
+// Sections
+
+#tech {
+  background-color: $silversand;
+}
+
+#funStuff {
+  background-color: $secondary;
+}
+
+#contact {
+  height: 50vh;
+
+  .contact-info {
+    text-align: center;
+    margin: 1rem;
+    a {
+      font-size: 2rem;
+      padding: 1rem;
+      margin: 1rem;
+      border-radius: 10px;
+    }
+    :hover {
+      background-color: $secondary;
+      color: $body-color;
+    }
+  }
+}
+
 // Text-Blocks
 .generalInfo {
   margin-top: 3rem;
   padding: 1rem;
-  background-color: cornsilk;
-  color: $body-bg;
+  color: $body-color;
   border-radius: 10px;
 }
 
 // Footer
 footer {
   margin-top: 2rem;
+  padding: 1rem;
   text-align: center;
+  height: 70px;
+  box-shadow: 0px 30px 50px black;
 }
