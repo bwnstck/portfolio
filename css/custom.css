@@ -9897,4 +9897,40 @@ body {
   margin: 20px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial;
+}
+
+.wrapper {
+  margin-top: 56px;
+}
+
+.card {
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.fab {
+  font-size: 15rem;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.popover * {
+  background-color: #343a40;
+}
+
+.generalInfo {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: cornsilk;
+  color: rebeccapurple;
+}
+
 /*# sourceMappingURL=custom.css.map */

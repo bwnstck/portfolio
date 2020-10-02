@@ -13,3 +13,38 @@ $font-family-base: Arial;
 body {
   margin: 20px;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-base;
+}
+
+.wrapper {
+  margin-top: 56px;
+}
+.card {
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.fab {
+  font-size: 15rem;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.popover * {
+  background-color: $dark;
+}
+
+.generalInfo {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: cornsilk;
+  color: $body-bg;
+}
