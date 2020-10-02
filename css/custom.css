@@ -9913,7 +9913,9 @@ h6 {
 }
 
 h2 {
+  font-size: 3rem;
   text-align: center;
+  color: #fcf7ff;
 }
 
 .navbar-brand > img {
@@ -9950,7 +9952,7 @@ h2 {
 
 .container-xl {
   align-items: center;
-  padding: 4rem 0;
+  padding: 4rem 1rem;
 }
 
 .jumbotron {
@@ -9963,8 +9965,12 @@ h2 {
   text-align: center;
 }
 
+.card-img-overlay {
+  top: 30%;
+}
+
 .fab {
-  font-size: 12rem;
+  font-size: 5rem;
   color: #f4166e;
 }
 
@@ -9972,22 +9978,44 @@ h2 {
   background-color: #343a40;
 }
 
-#tech {
-  background-color: #c4cad0;
+.working-cards {
+  transition: 0.3s ease-in-out;
 }
 
-#funStuff {
-  background-color: #f4166e;
+.working-cards:hover {
+  transform: scale(1.1);
+}
+
+#cv {
+  text-align: center;
+}
+
+#recentWork {
+  background-color: #fcf7ff;
+}
+#recentWork h2 {
+  color: #f4166e;
+}
+#recentWork img {
+  -webkit-filter: blur(5px);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
 }
 
 #contact {
   height: 50vh;
+  background-color: #1f7a8c;
+  color: #fcf7ff;
+}
+#contact h2 {
+  padding-bottom: 2rem;
 }
 #contact .contact-info {
   text-align: center;
-  margin: 1rem;
+  margin: 2rem;
 }
 #contact .contact-info a {
+  background-color: beige;
   font-size: 2rem;
   padding: 1rem;
   margin: 1rem;
@@ -10006,7 +10034,6 @@ h2 {
 }
 
 footer {
-  margin-top: 2rem;
   padding: 1rem;
   text-align: center;
   height: 70px;
