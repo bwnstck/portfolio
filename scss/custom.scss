@@ -14,6 +14,10 @@ $link-hover-decoration: none;
 
 // Add you custom CSS
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 20px;
 }
@@ -27,7 +31,7 @@ h6 {
   font-family: $font-family-heading;
 }
 
-.wrapper {
+#wrapper {
   margin-top: 56px;
 }
 
