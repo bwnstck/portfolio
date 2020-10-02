@@ -9965,6 +9965,10 @@ h2 {
   text-align: center;
 }
 
+.card-img-overlay {
+  top: 30%;
+}
+
 .fab {
   font-size: 5rem;
   color: #f4166e;
@@ -9991,6 +9995,11 @@ h2 {
 }
 #recentWork h2 {
   color: #f4166e;
+}
+#recentWork img {
+  -webkit-filter: blur(5px);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
 }
 
 #contact {
