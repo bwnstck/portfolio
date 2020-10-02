@@ -24,6 +24,8 @@ html {
 
 body {
   margin: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -42,7 +44,6 @@ h2 {
 
 // Layout
 #wrapper {
-  margin-top: 56px;
 }
 
 // Navbar
@@ -58,6 +59,20 @@ h2 {
 .carousel-item {
   height: 40vh;
   object-fit: cover;
+}
+
+// Hero
+.hero {
+  display: flex;
+  margin-top: 66px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/img/slider1.jpg);
+}
+
+.container-xl {
+  align-items: center;
+  padding: 0;
 }
 
 // Jumbotron
