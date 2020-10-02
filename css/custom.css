@@ -9893,10 +9893,6 @@ h3 {
     border-color: #dee2e6;
   }
 }
-* + * {
-  margin-top: 1rem;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -9933,6 +9929,7 @@ h2 {
 
 .carousel-item {
   height: 40vh;
+  object-fit: cover;
 }
 
 .jumbotron {
@@ -9940,7 +9937,9 @@ h2 {
 }
 
 .card {
+  margin: auto;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .fab {

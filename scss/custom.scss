@@ -15,9 +15,9 @@ $link-hover-decoration: none;
 // Add you custom CSS
 
 // General
-* + * {
-  margin-top: 1rem;
-}
+// * + * {
+//   margin-top: 1rem;
+// }
 html {
   scroll-behavior: smooth;
 }
@@ -57,6 +57,7 @@ h2 {
 // Carousel
 .carousel-item {
   height: 40vh;
+  object-fit: cover;
 }
 
 // Jumbotron
@@ -66,7 +67,9 @@ h2 {
 
 // Cards
 .card {
+  margin: auto;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .fab {
