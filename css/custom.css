@@ -9910,6 +9910,11 @@ h6 {
   font-family: "Roboto Slab", serif;
 }
 
+h2 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
 #wrapper {
   margin-top: 56px;
 }
@@ -9918,12 +9923,23 @@ h6 {
   height: 40px;
 }
 
+.nav-item {
+  margin-top: 0;
+}
+
 .carousel-item {
   height: 40vh;
+  object-fit: cover;
+}
+
+.jumbotron {
+  margin-top: 0;
 }
 
 .card {
+  margin: auto;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .fab {
