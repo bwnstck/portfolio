@@ -7,3 +7,5 @@ $(function () {
 $(".popover-dismiss").popover({
   trigger: "focus",
 });
+
+gsap.to(".avatar", { duration: 2, y: "10vh" });
