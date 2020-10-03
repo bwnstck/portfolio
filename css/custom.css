@@ -9922,12 +9922,27 @@ h2 {
   height: 40px;
 }
 
+.collapse {
+  justify-content: space-between;
+}
+
 .nav-item {
   margin-top: 0;
 }
 
 .nav-link {
   color: white !important;
+}
+
+.social {
+  font-family: monospace;
+}
+.social i.fab {
+  font-size: 2rem;
+  transition: 0.4s ease-in-out;
+}
+.social i.fab:hover {
+  color: #fcf7ff !important;
 }
 
 .carousel-item {

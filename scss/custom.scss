@@ -42,13 +42,12 @@ h2 {
   color: $body-color;
 }
 
-// Layout
-#wrapper {
-}
-
 // Navbar
 .navbar-brand > img {
   height: 40px;
+}
+.collapse {
+  justify-content: space-between;
 }
 
 .nav-item {
@@ -59,6 +58,17 @@ h2 {
   color: white !important;
 }
 
+.social {
+  font-family: monospace;
+
+  i.fab {
+    font-size: 2rem;
+    transition: 0.4s ease-in-out;
+  }
+  i.fab:hover {
+    color: $body-color !important;
+  }
+}
 // Carousel
 .carousel-item {
   height: 40vh;
