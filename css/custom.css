@@ -10695,7 +10695,7 @@ h2, .h2 {
   margin-top: 66px;
   width: 100vw;
   height: 100vh;
-  background-image: url("https://bwnstck.github.io/bootstrap-portfolio/img/background.svg");
+  background-image: url("https://bwnstck.github.io/portfolio/img/background.svg");
 }
 .hero .container {
   margin: auto;
@@ -10724,8 +10724,17 @@ h2, .h2 {
   text-align: center;
 }
 
+.card-body {
+  padding: 1rem;
+}
+
+.card-text {
+  margin: 1rem auto 1.5rem;
+}
+
 .card-img-overlay {
-  top: 30%;
+  top: 10%;
+  padding: 0 0.5rem;
 }
 
 .fab {
@@ -10738,15 +10747,17 @@ h2, .h2 {
 }
 
 .working-cards {
-  transition: 0.3s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background: rebeccapurple;
 }
 
 .working-cards:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 #cv {
   text-align: center;
+  padding: 4rem 0rem;
 }
 
 #recentWork {
