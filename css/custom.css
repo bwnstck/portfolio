@@ -10725,7 +10725,7 @@ h2, .h2 {
 }
 
 .card-img-overlay {
-  top: 0;
+  top: 10%;
   padding: 0 0.5rem;
 }
 
@@ -10757,9 +10757,9 @@ h2, .h2 {
   color: #f4166e;
 }
 #recentWork img {
-  -webkit-filter: blur(3px);
+  -webkit-filter: blur(5px);
   /* Safari 6.0 - 9.0 */
-  filter: blur(3px);
+  filter: blur(5px);
 }
 
 #contact {
