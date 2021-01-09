@@ -13,7 +13,7 @@ $font-family-heading: "Roboto Slab", serif;
 $link-hover-color: rgb(199, 125, 162);
 $link-hover-decoration: none;
 
-// Include all Bootstrap
+// Required
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Add you custom CSS
@@ -116,7 +116,8 @@ h2 {
 }
 
 .card-img-overlay {
-  top: 30%;
+  top: 0;
+  padding: 0 0.5rem;
 }
 
 .fab {
@@ -149,8 +150,8 @@ h2 {
   background-color: $body-color;
 
   img {
-    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-    filter: blur(5px);
+    -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+    filter: blur(3px);
   }
 }
 
