@@ -1,22 +1,22 @@
 {
-  "name": "bootstrap-intro",
+  "name": "portfolio-bwnstck",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://bwnstck.github.com/portfolio",
   "scripts": {
     "dev": "concurrently \"sass --watch scss:css\" \"live-server\"",
     "build": "sass scss:css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lmachens/bootstrap-intro.git"
+    "url": "git+https://github.com/bwnstck/portfolio.git"
   },
   "keywords": [],
   "author": "Leon Machens",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lmachens/bootstrap-intro/issues"
+    "url": "https://github.com/bwnstck/portfolio/issues"
   },
-  "homepage": "https://github.com/lmachens/bootstrap-intro#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.0",
     "bootstrap": "^5.0.0-beta1",
